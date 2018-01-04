@@ -1,0 +1,18 @@
+package third;
+import java.awt.*;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+        Frame w = new Frame();
+        w.setSize(300,400);
+        mypanel mmp = new mypanel();
+        w.add(mmp);
+        Thread t = new Thread(mmp);
+        t.start();
+        w.addKeyListener(mmp);
+        mmp.addKeyListener(mmp);
+        w.show();
+	}
+
+}

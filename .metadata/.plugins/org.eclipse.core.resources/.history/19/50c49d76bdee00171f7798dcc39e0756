@@ -1,0 +1,7 @@
+package third;
+
+import java.awt.Panel;
+
+public class mypanel extends Panel {
+
+}

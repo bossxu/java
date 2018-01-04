@@ -1,0 +1,19 @@
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Panel;
+class mypanel extends Panel implements Runnable {
+    public void paint(Graphics g)
+    {
+      int x = 30;
+       int y = 30;
+    	  while(true)
+    	  {
+    		  g.fillOval(x, y , 20, 20);
+    		  y++;
+    	  }
+    }
+    public void run()
+    {
+    	y++;
+    }
+}

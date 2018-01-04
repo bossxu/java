@@ -1,0 +1,41 @@
+package second;
+
+import java.awt.Graphics;
+import java.awt.Panel;
+import java.awt.event.*;
+
+public class mypanel extends Panel implements KeyListener {
+   int x = 30;
+   int y = 30;
+   public void paint(Graphics p)
+   {
+	   p.fillOval(x,y,20,20);
+   }
+   @Override
+   public void keyPressed(KeyEvent arg0)
+   {
+	 
+   }
+   @Override
+   public void keyReleased(KeyEvent arg1)
+   {
+	   
+   }
+   @Override
+   public void keyTyped(KeyEvent arg2)
+   {
+	   
+   }
+   public void run()
+   {
+	   while(true)
+	   {
+		   try 
+		   {
+			   Thread.sleep(100);
+		   }
+		   catch(Exception e) {}
+		   repaint();
+	   }
+   }
+}

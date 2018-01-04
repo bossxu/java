@@ -1,0 +1,22 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.border.Border;
+
+import java.awt.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+       JFrame w = new JFrame();
+       w.setSize(250,125);
+       w.setTitle("尝试");
+       
+       JLabel user = new JLabel("用户名");
+       JLabel mima = new JLabel("密码");
+       
+       JTextField txtuser = new JTextField();
+	}
+
+}

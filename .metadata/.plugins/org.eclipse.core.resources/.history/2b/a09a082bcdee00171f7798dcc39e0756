@@ -1,0 +1,21 @@
+package forth;
+
+import java.awt.Panel;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseMotionListener;
+
+public class Mypanel extends Panel implements MouseMotionListener {
+
+	@Override
+	public void mouseDragged(MouseEvent arg0) {
+		// TODO 自动生成的方法存根
+
+	}
+
+	@Override
+	public void mouseMoved(MouseEvent arg0) {
+		// TODO 自动生成的方法存根
+
+	}
+
+}

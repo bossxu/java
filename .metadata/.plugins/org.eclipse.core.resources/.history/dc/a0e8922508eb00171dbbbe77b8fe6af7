@@ -1,0 +1,23 @@
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Panel;
+class mypanel extends Panel implements Runnable {
+	int x[] = new int[300];
+	int y[] = new int[300];
+    public void paint(Graphics g)
+    {
+    	     g.setColor(Color.WHITE);
+    	     for(int i = 1;i<=300;i++)
+    		 g.drawString("*", (int)(Math.random()*1024), (int)(Math.random()*768));
+    }
+    public void run()
+    {
+    	while(true)
+    	{
+    		try {
+    			Thread.sleep(30);
+    		}catch(Exception e) {}
+    		repaint();
+    	}
+    }
+}

@@ -1,0 +1,30 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.border.Border;
+
+import java.awt.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+       JFrame w = new JFrame();
+       w.setSize(300,400);
+       
+       JButton b1 = new JButton();
+       JButton b2 = new JButton();
+       JButton b3 = new JButton();
+       JButton b4 = new JButton();
+       JButton b5 = new JButton();
+       
+       w.add(b1,BorderLayout.SOUTH);
+       w.add(b2,BorderLayout.NORTH);
+       w.add(b3, BorderLayout.WEST);
+       w.add(b3,BorderLayout.EAST);
+       w.add(b5, BorderLayout.CENTER);
+       
+       w.setVisible(true);;
+       
+	}
+
+}

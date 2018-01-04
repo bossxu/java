@@ -1,0 +1,15 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+       JFrame w = new JFrame();
+       w.setSize(300,400);
+       
+       JButton b1 = new JButton();
+       
+	}
+
+}

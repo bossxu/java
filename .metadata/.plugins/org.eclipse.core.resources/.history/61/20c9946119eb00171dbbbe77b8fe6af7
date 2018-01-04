@@ -1,0 +1,17 @@
+package second;
+import java.awt.event.*;
+import java.awt.*;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+       Frame w = new Frame();
+       w.setSize(1024, 768);
+       
+       mypanel mmp = new mypanel();
+       w.add(mmp);
+       
+       w.show();
+	}
+
+}

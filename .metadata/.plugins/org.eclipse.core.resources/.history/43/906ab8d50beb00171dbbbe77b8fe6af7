@@ -1,0 +1,12 @@
+package second;
+
+import java.awt.Graphics;
+import java.awt.Panel;
+
+public class mypanel extends Panel {
+   public void paint(Graphics p)
+   {
+	   g.fillover(30,30,20,20);
+   }
+	 
+}
